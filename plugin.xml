@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.omarben.inappreview"
+        version="0.0.1">
+
+  <name>inappreview</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/inappreview.js" target="js/inappreview.js"/>
+
+  <js-module src="www/inappreview.js" name="inappreview">
+    <clobbers target="inappreview" />
+  </js-module>
+
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="Review">
+        <param name="ios-package" value="SKstorereview" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/SKstorereview.h" target-dir="SKstorereview"/>
+    <source-file src="src/ios/SKstorereview.m" target-dir="SKstorereview"/>
+  </platform>
+
+</plugin>
