@@ -20,7 +20,7 @@ Tells StoreKit to ask the user to rate or review your app, if appropriate.
 
 
 
-## Installation
+## Installation (iOS +10.3 only)
 ```
 cordova plugins add https://github.com/omaxlive/com.omarben.inappreview
 ```
@@ -49,6 +49,9 @@ var requestReview = function(){
 };
 ```
 
+## More information about the use of in app review
+Apple is also limiting the amount of times developers can ask customers for reviews. Developers will only be able to bring up the review dialog three times a year. If a customer has rated the app, they will not be prompted again. If a customer has dismissed the review prompt three times, they will not be asked to review the app for another year.
+More: http://www.loopinsight.com/2017/01/24/apple-explains-the-new-app-reviews-api-for-developers/ 
 
 
 ## Credits
