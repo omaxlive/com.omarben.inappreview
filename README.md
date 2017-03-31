@@ -60,5 +60,5 @@ inappreview plugin was created by Omar Ben brahim.
 
 ## License
 
-MMWormhole is available under the MIT license. See the LICENSE file for more info.
+inappreview is available under the MIT license. See the LICENSE file for more info.
 
