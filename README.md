@@ -20,14 +20,14 @@ Tells StoreKit to ask the user to rate or review your app, if appropriate.
 
 
 
-## Installation (iOS +10.3 only)
+## Installation
 ```
 cordova plugins add https://github.com/omaxlive/com.omarben.inappreview
 ```
 
 
 
-## How-to use example in your cordova project:
+## How-to use example in your cordova project (iOS +10.3 only)
 ```
 inappreview.requestReview(success, failure);
 ```
