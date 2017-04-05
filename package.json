@@ -1,0 +1,31 @@
+{
+  "name": "com.omarben.inappreview",
+  "version": "0.0.1",
+  "description": "Cordova Plugin that use the iOS class SKStore​Review​Controller to open the inapp review popup available since iOS 10.3",
+  "cordova": {
+    "id": "com.omarben.inappreview",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://omaxlive@github.com/omaxlive/com.omarben.inappreview.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": "Omar Ben brahim",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/omaxlive/com.omarben.inappreview/issues"
+  },
+  "homepage": "https://github.com/omaxlive/com.omarben.inappreview#readme"
+}
