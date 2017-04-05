@@ -18,7 +18,9 @@ Tells StoreKit to ask the user to rate or review your app, if appropriate.
 
 ## Installation
 ```
-cordova plugins add https://github.com/omaxlive/com.omarben.inappreview
+cordova plugins remove com.omarben.inappreview
+
+npm url: https://www.npmjs.com/package/com.omarben.inappreview 
 ```
 
 
