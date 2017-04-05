@@ -1,9 +1,9 @@
 # com.omarben.inappreview
 Cordova Plugin that use the iOS class SKStore​Review​Controller to open the inapp review popup available since iOS 10.3
 
-<p align="center">
+
 ![ScreenShot](https://cdn-enterprise.discourse.org/ionicframework/uploads/default/original/3X/8/0/80f4eae62688e2a0a44b88e865b5a7f7b964a25f.jpg)
-</p>
+
 
 SKStore​Review​Controller: https://developer.apple.com/reference/storekit/skstorereviewcontroller?language=objc 
 Controls the process of requesting App Store ratings and reviews from users.
