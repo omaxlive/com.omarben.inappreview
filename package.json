@@ -1,6 +1,6 @@
 {
   "name": "com.omarben.inappreview",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cordova Plugin that use the iOS class SKStore​Review​Controller to open the inapp review popup available since iOS 10.3",
   "cordova": {
     "id": "com.omarben.inappreview",

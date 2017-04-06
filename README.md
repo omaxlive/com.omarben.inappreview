@@ -20,8 +20,9 @@ Tells StoreKit to ask the user to rate or review your app, if appropriate.
 ```
 cordova plugins add com.omarben.inappreview
 
-npm url: https://www.npmjs.com/package/com.omarben.inappreview 
 ```
+
+npm url: https://www.npmjs.com/package/com.omarben.inappreview
 
 
 
