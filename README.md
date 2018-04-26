@@ -32,7 +32,7 @@ inappreview.requestReview(success, failure);
 ```
 
 More detailed example:
-```
+```javascript
 var requestReview = function(){
   try{
     var success = function() {
@@ -47,6 +47,42 @@ var requestReview = function(){
   }
 };
 ```
+
+## Usage in ionic 2+
+
+#### Install the Ionic Native package of this plugin  
+npm install @ionic-native/in-app-review --save
+
+#### After installing a plugin’s package, add it to your app’s NgModule.
+
+
+```typescript
+
+import { InAppReview } from '@ionic-native/in-app-review';
+
+@NgModule({
+
+  providers: [
+    InAppReview
+  ]
+
+})
+export class AppModule { }
+```
+
+#### The use it in your page. Example:
+```typescript
+import { InAppReview } from '@ionic-native/in-app-review';
+ 
+
+constructor(private inAppReview: InAppReview) { }
+
+this.inAppReview.requestReview()
+   .then((res: any) => console.log(res))
+   .catch((error: any) => console.error(error));
+ 
+```
+
 
 ## More information about the use of in app review
 Apple is also limiting the amount of times developers can ask customers for reviews. Developers will only be able to bring up the review dialog three times a year. If a customer has rated the app, they will not be prompted again. If a customer has dismissed the review prompt three times, they will not be asked to review the app for another year.
