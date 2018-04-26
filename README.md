@@ -39,7 +39,7 @@ var requestReview = function(){
         console.log("success");
     }
     var failure = function() {
-        console.log("Error calling Galaxy plugin");
+        console.log("Error calling inappreview plugin");
     }
     inappreview.requestReview(success, failure);
   }catch(e){
@@ -52,6 +52,11 @@ var requestReview = function(){
 Apple is also limiting the amount of times developers can ask customers for reviews. Developers will only be able to bring up the review dialog three times a year. If a customer has rated the app, they will not be prompted again. If a customer has dismissed the review prompt three times, they will not be asked to review the app for another year.
 More: http://www.loopinsight.com/2017/01/24/apple-explains-the-new-app-reviews-api-for-developers/ 
 
+## Important
+Note
+When you call this method while your app is still in development mode, a rating/review request view is always displayed so that you can test the user interface and experience. However, this method has no effect when you call it in an app that you distribute using TestFlight.
+
+[more...](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/2851536-requestreview)
 
 ## Credits
 
